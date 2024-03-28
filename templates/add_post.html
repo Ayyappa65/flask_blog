@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .addpost{
+    background-image:url("https://www.holidify.com/images/cmsuploads/compressed/water-ocean-person-recreation-diving-underwater-1172509-pxhere.com_20190927165818.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    border-radius: 10px;
+    }
+     .submitButton{
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+     }
+    </style>
+</head>
+<body>
+    <div class="addpost">
+        <center>
+            <br>
+        <br>
+        <br>
+        <br>
+    <form method="post">
+        <h2 style="color: rgb(219, 243, 0);"> ADD POST</h2>
+        <label for="content" style="padding-right: 250px;color: rgb(255, 255, 255);font-weight: bold;">Title :</label>
+        <br>
+        <input name='title' type="text" id="title" required style="background-color:rgba(247, 247, 247, 0);color: yellow;width: 300px;">
+        <br>
+        <br>
+
+        <label for="content" style="padding-right: 250px;color: rgb(255, 255, 255);font-weight: bold;">Content:</label>
+        <br>
+        <textarea name="content" type="text" id="content" required style="background-color:rgba(247, 247, 247, 0);color: yellow;height: 200px;width: 300px;">
+        </textarea>
+            <br>
+        <br>
+
+        <label for="slug" style="padding-right: 250px;color: rgb(255, 255, 255);font-weight: bold;">Slug :</label>:</label>
+        <br>
+        <input name='slug' type="text" id="slug" required style="background-color:rgba(247, 247, 247, 0);color: yellow;width: 300px;">
+        <br>
+        <br>
+        
+        <button type="submit" class="submitButton">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </center>
+    </div>
+</body>
+</html>
